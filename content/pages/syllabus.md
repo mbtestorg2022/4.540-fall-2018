@@ -33,11 +33,234 @@ _"Calculating" = Calculating: Beyond Fancy in Imagination’s Magical Realm_
 
 For full bibliographic details on these texts, see the [Primary Course Texts]({{< baseurl >}}/pages/course-texts) page. For other readings, see the [Lecture Slides and Supplemental Readings]({{< baseurl >}}/pages/lecture-slides-and-supplemental-readings) page. Except where noted, all readings are by George Stiny.
 
-| Units | Topics | Readings |
-| --- | --- | --- |
-|  {{< br >}}{{< br >}} 1\. Overview {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} Shapes and symbols {{< br >}}{{< br >}} *   Rules for shapes – this shape → that shape{{< br >}}*   Rules for symbols – description of this shape → description of that shape {{< br >}}{{< br >}} The embed-fuse cycle {{< br >}}{{< br >}} *   Embedding vs identity{{< br >}}*   Shapes fuse, symbols don’t {{< br >}}{{< br >}} Shape grammars in art and design {{< br >}}{{< br >}} *   Dimension i ≠ 0 vs dimension i = 0{{< br >}}*   Imagination : fancy :: shapes : symbols {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} Introduction: "Tell Me All About It" in _Shape_, pp. 1–59. {{< br >}}{{< br >}} “Preface” and “Exhibit 2” in _Calculating_. {{< br >}}{{< br >}} (optional) Stiny and Gips, “Shape Grammars and the Generative Specification of Painting and Sculpture.” {{< br >}}{{< br >}}  |
-|  {{< br >}}{{< br >}} 2\. Basic Elements {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} i = 0 – points {{< br >}}{{< br >}} i ≠ 0 – lines, planes, and solids {{< br >}}{{< br >}} Content and boundaries {{< br >}}{{< br >}} Points aren’t lines aren’t planes aren’t solids {{< br >}}{{< br >}} Embedding vs identity {{< br >}}{{< br >}} Reduction rules for fusing basic elements {{< br >}}{{< br >}} *   Embedded elements{{< br >}}*   Overlapping elements{{< br >}}*   Discrete elements {{< br >}}{{< br >}} Embedding basic elements {{< br >}}{{< br >}} Shapes {{< br >}}{{< br >}} *   Parts{{< br >}}*   Sums, differences, and complements {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} “Back to Basics—Elements and Embedding,” “Counting Points and Seeing Parts,” “Shapes in Algebras and Algebras in Rows,” and “Boundaries of Shapes are Shapes” from Part II, “Seeing How It Works” in _Shape_, pp. 159–204. {{< br >}}{{< br >}}  |
-|  {{< br >}}{{< br >}} 3. Algebras of Shapes Uij {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} Difference of dimension i for basic elements vs dimension j for space {{< br >}}{{< br >}} Generalized Boolean algebras {{< br >}}{{< br >}} Table of algebras and its properties {{< br >}}{{< br >}} *   Embedding{{< br >}}*   Transformations {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} “Shapes in Algebras and Algebras in Rows,” “Boundaries of Shapes are Shapes,” “Boolean Divisions,” and “Euclidean Embeddings” from Part II, “Seeing How It Works” in _Shape_, pp. 180–215. {{< br >}}{{< br >}} “Algebras of Design.” {{< br >}}{{< br >}} (optional) “Weights.” {{< br >}}{{< br >}}  |
-|  {{< br >}}{{< br >}} 4. Calculating with Shapes and Rules {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} Formulas for rule application – seeing and doing {{< br >}}{{< br >}} Classifying rule applications in terms of transformations {{< br >}}{{< br >}} The embed-fuse cycle {{< br >}}{{< br >}} Turing machines are a special case of shape grammars {{< br >}}{{< br >}} Identity + recursion (i = 0) ⊆ embedding + recursion (i ≠ 0) {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} Part I, “What Makes It Visual?” In _Shape_, pp. 61–125 and 130–158. {{< br >}}{{< br >}} Paragraphs: “How Rules Work When I Calculate,” “Trying it Out,” “Spatial Relations and Rules,” “Classifying Rules with Transformations,” and “Classifying Rules with Parts” from Part II, “Seeing How It Works” in _Shape_, pp. 228–275. {{< br >}}{{< br >}} (optional) “Turing Machines and Shape Grammars.” {{< br >}}{{< br >}}  |
-|  {{< br >}}{{< br >}} 5. Computer Implementation for Linear Elements {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} Elements and Embedding {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} “Classifying Rules with Transformations,” “Classifying Rules with Parts,” and “How Computers Do It” from Part II, “Seeing How It Works” in _Shape_, pp. 260–277. {{< br >}}{{< br >}}  |
-|  {{< br >}}{{< br >}} 6. Schemas for Art and Design {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} Parts, transformations, and boundaries {{< br >}}{{< br >}} Subsets (for example, identities), inverses, copies, sums, compositions, and Boolean expressions {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} “What Schemas Show” from Part I, “What Makes It Visual?” in _Shape_, pp. 126–130. {{< br >}}{{< br >}} “I Don’t Like Rules, They’re Too Rigid” from Part II, “Seeing How It Works” in _Shape_, pp. 277–282. {{< br >}}{{< br >}} “Design is Calculating,” “Tell Me What Schema to Use,” “What the Thinking Eye Sees,” “Chinese Lattice Designs—Seeing What You Do,” “They’re Shapes Before They’re Plans,” “Getting in the Right Frame of Mind,” and “Latin and Greek, and Mathematics” from Part III, “Using It to Design” in _Shape_, pp. 311–354 and 368–387. {{< br >}}{{< br >}} (optional) “What Rules Should I Use?” {{< br >}}{{< br >}}
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+Units
+{{< thclose >}}
+{{< thopen >}}
+Topics
+{{< thclose >}}
+{{< thopen >}}
+Readings
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+1\. Overview
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Shapes and symbols
+
+*   Rules for shapes – this shape → that shape
+*   Rules for symbols – description of this shape → description of that shape
+
+The embed-fuse cycle
+
+*   Embedding vs identity
+*   Shapes fuse, symbols don’t
+
+Shape grammars in art and design
+
+*   Dimension i ≠ 0 vs dimension i = 0
+*   Imagination : fancy :: shapes : symbols
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Introduction: "Tell Me All About It" in _Shape_, pp. 1–59.
+
+“Preface” and “Exhibit 2” in _Calculating_.
+
+(optional) Stiny and Gips, “Shape Grammars and the Generative Specification of Painting and Sculpture.”
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+2\. Basic Elements
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+i = 0 – points
+
+i ≠ 0 – lines, planes, and solids
+
+Content and boundaries
+
+Points aren’t lines aren’t planes aren’t solids
+
+Embedding vs identity
+
+Reduction rules for fusing basic elements
+
+*   Embedded elements
+*   Overlapping elements
+*   Discrete elements
+
+Embedding basic elements
+
+Shapes
+
+*   Parts
+*   Sums, differences, and complements
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+“Back to Basics—Elements and Embedding,” “Counting Points and Seeing Parts,” “Shapes in Algebras and Algebras in Rows,” and “Boundaries of Shapes are Shapes” from Part II, “Seeing How It Works” in _Shape_, pp. 159–204.
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+3. Algebras of Shapes Uij
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Difference of dimension i for basic elements vs dimension j for space
+
+Generalized Boolean algebras
+
+Table of algebras and its properties
+
+*   Embedding
+*   Transformations
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+“Shapes in Algebras and Algebras in Rows,” “Boundaries of Shapes are Shapes,” “Boolean Divisions,” and “Euclidean Embeddings” from Part II, “Seeing How It Works” in _Shape_, pp. 180–215.
+
+“Algebras of Design.”
+
+(optional) “Weights.”
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+4. Calculating with Shapes and Rules
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Formulas for rule application – seeing and doing
+
+Classifying rule applications in terms of transformations
+
+The embed-fuse cycle
+
+Turing machines are a special case of shape grammars
+
+Identity + recursion (i = 0) ⊆ embedding + recursion (i ≠ 0)
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Part I, “What Makes It Visual?” In _Shape_, pp. 61–125 and 130–158.
+
+Paragraphs: “How Rules Work When I Calculate,” “Trying it Out,” “Spatial Relations and Rules,” “Classifying Rules with Transformations,” and “Classifying Rules with Parts” from Part II, “Seeing How It Works” in _Shape_, pp. 228–275.
+
+(optional) “Turing Machines and Shape Grammars.”
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+5. Computer Implementation for Linear Elements
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Elements and Embedding
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+“Classifying Rules with Transformations,” “Classifying Rules with Parts,” and “How Computers Do It” from Part II, “Seeing How It Works” in _Shape_, pp. 260–277.
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+6. Schemas for Art and Design
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Parts, transformations, and boundaries
+
+Subsets (for example, identities), inverses, copies, sums, compositions, and Boolean expressions
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+“What Schemas Show” from Part I, “What Makes It Visual?” in _Shape_, pp. 126–130.
+
+“I Don’t Like Rules, They’re Too Rigid” from Part II, “Seeing How It Works” in _Shape_, pp. 277–282.
+
+“Design is Calculating,” “Tell Me What Schema to Use,” “What the Thinking Eye Sees,” “Chinese Lattice Designs—Seeing What You Do,” “They’re Shapes Before They’re Plans,” “Getting in the Right Frame of Mind,” and “Latin and Greek, and Mathematics” from Part III, “Using It to Design” in _Shape_, pp. 311–354 and 368–387.
+
+(optional) “What Rules Should I Use?”
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
